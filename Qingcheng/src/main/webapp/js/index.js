@@ -1,5 +1,5 @@
 
-window.onload=function(){
+$(function(){
 	var wid=$('.activeimg img')[0].width;
 	console.log(wid);
     $('.bot-img ul li').click(function(){
@@ -30,8 +30,8 @@ window.onload=function(){
         }else{
             $('.activeimg').animate({left:num*-wid},"slow");
         }
-    },4000);
-}
+    },2000);
+})
 var index=0;
 function next(list){
     if(index<list-1){
