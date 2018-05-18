@@ -1,0 +1,91 @@
+html {
+	background-color: rgba(199, 221, 224, 0.6);
+}
+
+
+.contain {
+	width: 84%;
+	height: 220%;
+	margin-left: 8%;
+	position: relative;
+	top: 16%;
+	z-index: 90;
+	background-color: whitesmoke;
+}
+
+.contain h2{
+	margin-top: 2%;
+	margin-left: 10%;
+	font-size: 28px;
+	position: absolute;
+	/*background-color: lightgoldenrodyellow;*/
+}
+
+.contain .contain_des{
+	width: 73%;
+	height: 95%;
+	float: left;
+	/*background-color: lightblue;*/
+	top: 5%;
+	position: absolute;
+}
+
+.contain_des p{
+	margin-top: 2%;
+	margin-bottom: 0;
+	margin-left: 13%;
+}
+
+.contain_des img{
+	margin-left: 13%;
+	margin-top: 2%;
+}
+
+.contain_ins p:nth-child(1){
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.contain_foot{
+	margin-top: 4%;
+}
+
+.contain_foot p:nth-child(1){
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.contain_contact{
+	width: 25%;
+	height: 25%;
+	float: right;
+	top: 5%;
+	left: 74%;
+	position: absolute;
+	/*background-color: lightgrey;*/
+	text-align: center;
+}
+
+.contain_contact img{
+	width: 160px;
+	height: 160px;
+	border-radius: 80px;
+}
+
+.contain_contact h3{
+	margin-top: 6%;
+}
+
+.contain_contact span{
+	font-weight: bold;
+}
+
+.contain_contact p{
+	font-size: 17px;
+}
+footer{
+	display: flex;
+	position: relative;
+	margin-top:40px;
+	bottom: 0;
+}

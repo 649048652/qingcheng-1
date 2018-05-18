@@ -1,0 +1,214 @@
+html {
+	background-color: rgba(199, 221, 224, 0.6);
+}
+
+header {
+	z-index: 100;
+	/*background-color: #558F6E;*/
+	background-color: #8edeff;
+	top: 0px;
+	position: fixed;
+}
+
+body {
+	position: relative;
+	overflow: hidden;
+}
+
+.top_head{
+	width: 100%;
+	height: 67%;
+}
+
+.logo {
+	width: 20%;
+	height: 100%;
+	float: left;
+	margin-left: 8%;
+	margin-top: 0.5%;
+}
+
+.navigation {
+	width: 100%;
+	height: 5%;
+	padding: 10px 0;
+	top: 68%;
+	position: absolute;
+	background-color: #8edeff;
+}
+
+.navigation ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: space-around;
+	align-items: center;
+	height: 98%;
+	width: 60%;
+	margin-left: 7%;
+}
+
+.navigation a {
+	margin: 5px 0;
+	border-radius: 12px;
+}
+
+.navigation a li {
+	font-size: 16px;
+	color: black;
+	font-family: "宋体";
+	margin-top: 5px;
+}
+
+.navigation a:hover {
+	font-weight: bolder;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: white;
+	opacity: 0.8;
+}
+
+.contain{
+	background-image: url(../img/water&mountain/WM_bj_star.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	top: 15%;
+}
+
+.contain_item{
+	width: 100px;
+	height: 100px;
+	/*background-color: mediumseagreen;*/
+	border: 2px solid black;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	font-family: "幼圆";
+	font-weight: bold;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.contain_item:hover{
+	transform: scale(1.05,1.05);
+	transition: all 0.5s linear;
+	border-color: white;
+}
+
+.contain_item:nth-child(1){
+	top: 58%;
+	/*bottom: -20%;*/
+	left: 4%;
+	position: absolute;
+	/*border: 2px solid #E37B40;*/
+}
+
+.contain_item:nth-child(3){
+	top: 28%;
+	/*bottom: -20%;*/
+	left: 21%;
+	position: absolute;
+	/*border: 2px solid #46B29D;*/
+}
+
+.contain_item:nth-child(5){
+	top: 38%;
+	/*bottom: -20%;*/
+	left: 38%;
+	position: absolute;
+	/*border: 2px solid #DE5B49;*/
+}
+
+.contain_item:nth-child(7){
+	top: 50%;
+	/*bottom: -20%;*/
+	left: 54%;
+	position: absolute;
+	/*border: 2px solid #324D5C;*/
+}
+
+.contain_item:nth-child(9){
+	top:81%;
+	/*bottom: -20%;*/
+	left: 65%;
+	position: absolute;
+	/*border: 2px solid #F0CA4D;*/
+}
+
+.contain_item:nth-child(11){
+	top: 68%;
+	/*bottom: -20%;*/
+	left: 85%;
+	position: absolute;
+	/*border: 2px solid black;*/
+}
+
+.contain_item:nth-child(13){
+	top: 20%;
+	/*bottom: -20%;*/
+	left: 83%;
+	position: absolute;
+	/*border: 2px solid black;*/
+}
+
+.contain_line{
+	margin: 0;
+	padding: 0;
+	border: 2px dashed white;
+	overflow: hidden;
+	opacity: 0;
+}
+
+.contain_line:nth-child(2){
+	width: 180px;
+	top: 50.5%;
+	left: 9.5%;
+	transform: rotate(-41deg);
+	position: absolute;
+	/*opacity: 0;*/
+}
+
+.contain_line:nth-child(4){
+	width: 120px;
+	top: 41%;
+	left: 28.5%;
+	transform: rotate(16deg);
+	position: absolute;
+}
+
+.contain_line:nth-child(6){
+	width: 115px;
+	top: 52%;
+	left: 45.5%;
+	transform: rotate(16deg);
+	position: absolute;
+}
+
+.contain_line:nth-child(8){
+	width: 130px;
+	top: 72.5%;
+	left: 59%;
+	transform: rotate(52deg);
+	position: absolute;
+}
+
+.contain_line:nth-child(10){
+	width:165px;
+	top: 81%;
+	left: 72.5%;
+	transform: rotate(-18deg);
+	position: absolute;
+}
+
+.contain_line:nth-child(12){
+	width:178px;
+	top: 51.5%;
+	left: 81%;
+	transform: rotate(-95deg);
+	position: absolute;
+}

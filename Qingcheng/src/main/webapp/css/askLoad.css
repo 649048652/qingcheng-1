@@ -1,0 +1,148 @@
+html {
+	background-color: rgba(199, 221, 224, 0.6);
+}
+
+
+.menuContent {
+	width: 6%;
+	left: 1%;
+	height: 60%;
+	top: 16%;
+	opacity: 0.8;
+	position: fixed;
+	z-index: 12;
+	/*background-color: #fff;*/
+	box-shadow: 0 4px 12px 0 rgba(7, 17, 27, .1);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menuContent .navTag {
+	width: 58%;
+	height: 10%;
+	position: relative;
+}
+
+.navTag img {
+	width: 100%;
+	height: 100%;
+}
+
+.menuContent h3 {
+	opacity: 0;
+	color: orange;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+	bottom: 10px;
+}
+
+.navTag:hover {
+	cursor: hand;
+}
+
+.navTag:nth-child(1):hover {
+	background: url(../img/locationing.png) no-repeat !important;
+	background-size: contain !important;
+}
+
+.navTag:nth-child(3):hover {
+	background: url(../img/busing.png) no-repeat !important;
+	background-size: contain !important;
+}
+
+.navTag:nth-child(5):hover {
+	background: url(../img/caring.png) no-repeat !important;
+	background-size: contain !important;
+}
+
+.navTag:nth-child(7):hover {
+	background: url(../img/flying.png) no-repeat !important;
+	background-size: contain !important;
+}
+
+.navTag:nth-child(9):hover {
+	background: url(../img/railing.png) no-repeat !important;
+	background-size: contain !important;
+}
+
+.contain {
+	position: relative;
+	width: 84%;
+	margin-left: 8%;
+	height: 270%;
+	z-index: -10;
+	top: 13%;
+}
+
+.navTra {
+	height: 18%;
+	margin-top: 2%;
+	position: relative;
+}
+
+.navTra .navLeft {
+	width: 45%;
+	height: 100%;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	background: rgba(146, 198, 245, 0.8);
+	box-shadow: 3px 3px 3px whitesmoke;
+}
+
+.navLeft h2 {
+	height: 10%;
+	padding: 2% 0;
+	text-align: center;
+}
+
+.navTra .navLeft p {
+	height: 80%;
+	width: 80%;
+	color: #015561;
+	font-size: 16px;
+	text-indent: 2em;
+	padding: 10px;
+	font-family: "幼圆";
+}
+
+.navTra .navRight {
+	margin-right: 1%;
+	width: 54%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+}
+
+.navTra .navRight img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.navTra h2 {
+	margin: 5px 0 0 5px;
+	color: white;
+}
+
+
+/*.navTra:nth-child(2n) .navLeft{
+	right:0 !important;
+}
+.navTra:nth-child(2n) .navRight{
+	left:0 !important;
+}*/
+
+footer {
+	position: relative;
+	z-index: 10;
+	top: 23%;
+}

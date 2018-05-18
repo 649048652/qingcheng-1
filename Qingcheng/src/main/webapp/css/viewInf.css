@@ -1,0 +1,289 @@
+
+html{
+	background-color: #EEEEEE;
+}
+/*.center{
+	top:13%;
+	position: relative;
+	background: url(../img/viewInfbg.jpg) no-repeat;
+	background-size:auto;
+	background-position:center;
+	height:160%;
+	width:86%;
+	left:7%;
+}*/
+/*.center*/ .picShow{
+	position: relative;
+	top:13%;
+	width:86%;
+	left:7%;
+	height:60%;
+	/*background:rgba(192,195,122,0.6);*/
+	/*background: url(../img/viewMountain1.jpg) no-repeat;
+	background-size: 100% 100%;*/
+	animation-name: showPic;
+	animation-duration: 20s;
+	animation-timing-function:step-start;
+	animation-iteration-count: infinite;
+}
+/*.center*/ .picShow .pic{
+	position: relative;
+	width:60%;
+	height:76%;
+	left:20%;
+	top:12%;
+/*	background:rgba(122,165,102,0.8);*/
+	/*background: url(../img/viewMountain2.jpg) no-repeat;
+	background-size: 100% 100%;*/
+	opacity: 0.9;
+	animation-name: showPic;
+	animation-duration: 20s;
+	animation-timing-function: step-start;
+	animation-iteration-count: infinite;
+	border: 1px solid gainsboro;
+	box-shadow: 2px 2px 6px gray;
+}
+/*.center */.picShow .txt p{
+	position: relative;
+	width:70px;
+	height: 100%;
+	padding: 10px;
+	font-size: 46px;
+	line-height: 80px;
+	color:white;
+	font-family: "楷体";
+}
+/*.center*/ .picShow .txt{
+	position: absolute;
+	width:10%;
+	height:80%;
+	left:15%;
+	top:10%;
+	/*border: 1px solid gray;
+	background:rgba(121,187,126,0.5);*/
+}
+
+/*.center*/ .view,/*.center*/ .price{
+	position: relative;
+	width:86%;
+	left:7%;
+}
+/*.center */.view{
+	height:60%;
+	top:13%;
+}
+.viewInf{
+	position: relative;
+	margin-top:1%;
+	top:13%;
+	height:8%;
+	width:86%;
+	left:7%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 22px;
+	background:lightgray;
+	font-family: "幼圆";
+	color:black;
+}
+.viewInf img{
+	transform: rotate(-90deg);
+	width:25px;
+	height:auto;
+	/*border:1px solid red;
+	position: absolute;
+	bottom: 0;*/
+}
+/*.viewInf span{
+	margin-left: 20px;
+}*/
+.price{
+	font-family: '幼圆';
+	position: relative;
+	display: none;
+	height:40%;
+	width:82%;
+	padding: 0 2%;
+	top:13%;
+	left:7%;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-content: space-around;
+	flex-direction: column;
+	font-size: 16px;
+	line-height: 40px;
+	background:rgba(22,66,88,0.6);
+}
+.price strong{
+	font-size: 20px;
+}
+.price .logo{
+	position: relative;
+	height:auto;
+	width:26%;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo .tag{
+	position: relative;
+	width:100px;
+	height:100px;
+	border:1px solid black;
+}
+/*.center */.intro{
+	position: relative;
+	top:13%;
+	width:82%;
+	left:7%;
+	height:auto;
+	background:lightgray;
+	line-height: 30px;
+	text-indent: 2em;
+	font-size: 16px;
+	padding:1% 2% 0 2%;
+
+}
+.intro span{
+	cursor: pointer;
+	color:blue;
+}
+.intro p{
+	display: none;
+}
+.intro strong{
+	color: white;
+	font-size: 20px;
+}
+/*.center*/ .detail{
+
+	margin-top:0.5%;
+	position: relative;
+	top:13%;
+	height:12%;
+	width:86%;
+	left:7%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
+	background:rgba(23,26,15,0.5);
+	font-family: "幼圆";
+	color:beige;
+}
+.view .viewLeft{
+	position: relative;
+	width:50%;
+	height: 96%;
+	top:1%;
+	float: left;
+	background: url(../img/QC1view1.jpg);
+	background-size: auto;
+}
+.viewRight ul{
+	position: absolute;
+	bottom: 3%;
+	width:50%;
+	height: 20px;
+	left:25%;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.viewRight ul li{
+	width:12px;
+	height:12px;
+	border-radius: 50%;
+	background-color: gainsboro;
+}
+.viewRight .left,.viewRight .right{
+	position: absolute;
+	width:4%;
+	height:100%;
+	background: url(../img/left.png) no-repeat;
+	background-size: auto;
+	background-position: center;
+}
+.viewRight .left{
+	left:1%;
+}
+.viewRight .right{
+	transform: rotate(180deg);
+	right:1%;
+}
+.view .viewRight{
+	position: relative;
+	padding:0 4%;
+	width:42%;
+	height:100%;
+	/*background:rgba(122,231,166,0.6);*/
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: "幼圆";
+}
+.viewRight h1{
+	font-family: "幼圆";
+	padding: 20px;
+}
+.viewRight p{
+	text-indent: 2em;
+	line-height: 38px;
+}
+.detail strong{
+	font-size: 28px;
+}
+.detail span:hover{
+	font-size: 26px;
+	color:black;
+	cursor: pointer;
+}
+footer{
+	position: relative;
+	width:100%;
+	display: flex;
+	margin-top: 2%;
+	bottom: 0;
+}
+@keyframes showPic{
+	0%{
+		background: url(../img/viewMountain1.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+	33%{
+		background: url(../img/viewMountain2.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+	66%{
+		background: url(../img/viewMountain3.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+	100%{
+		background: url(../img/viewMountain1.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+}
+@keyframes showSPic{
+	0%{
+		background: url(../img/viewMountainS1.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+	33%{
+		background: url(../img/viewMountainS2.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+	66%{
+		background: url(../img/viewMountainS3.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+	100%{
+		background: url(../img/viewMountainS1.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+}

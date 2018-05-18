@@ -1,0 +1,95 @@
+html {
+	background-color: rgba(199, 221, 224, 0.6);
+}
+
+
+.contain{
+	width: 84%;
+	height: 200%;
+	margin-left: 8%;
+	position: relative;
+	top: 16%;
+	z-index: 90;
+	background-color: whitesmoke;
+}
+
+.contain_head{
+	width: 100%;
+	height: 4%;
+	box-shadow: 0px 3px 0px 0px lightgray;
+}
+
+.contain_head h1{
+	font-size: 28px;
+	margin-top: 1%;
+	margin-left: 1%;
+	position: absolute;
+}
+
+.contain_body{
+	width: 100%;
+	height: 90%;
+	margin-top: 0.5%;
+}
+
+.contain_item{
+	width: 32%;
+	height: 33%;
+	float: left;
+	background-color: white;
+	margin: 1% 0 0 1%;
+	cursor: pointer;
+}
+
+.contain_item:hover{
+	box-shadow: 1px 1px 1px 1px gray;
+}
+
+.contain_item img{
+	width: 92%;
+	height: 60%;
+	margin-left: 4%;
+	margin-top: 2%;
+}
+
+.contain_item h3{
+	margin-left: 4%;
+	font-size: 23px;
+	color: black;
+}
+
+.contain_item p{
+	margin-left: 4%;
+	margin-top: 4%;
+	color: black;
+}
+
+.item_des{
+	width: 100%;
+	height: 5%;
+	/*background-color: lightblue;*/
+}
+
+.item_des p{
+	margin-top: 1%;
+	float: left;
+	display: inline-block;
+}
+
+.item_des span{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.item_des span._price{
+	float: right;
+	margin-right: 4%;
+	color: red;
+	font-size: 22px;
+}
+footer{
+	display: flex;
+	position: relative;
+	margin-top:40px;
+	bottom: 0;
+}

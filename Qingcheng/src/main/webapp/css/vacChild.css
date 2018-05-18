@@ -1,0 +1,102 @@
+html {
+	background-color: rgba(199, 221, 224, 0.6);
+}
+
+
+.center{
+	display: flex;
+	/*background-color:#F5F5F5;*/
+	position: relative;
+	height:230%;
+	width: 100%;
+	flex-direction:column ;
+	top:16%;
+}
+.album{
+	position: relative;
+	width:84%;
+	height:30%;
+	margin-left: 8%;
+	/*background-color:#A1D2B0;*/
+	background-color: lightgrey;
+	/*opacity: 0.8;*/
+}
+
+.album .pic{
+	position: absolute;
+	margin: 20px;
+	width:40%;
+	height:60%;
+	opacity: 0.6;
+	border:1px solid gainsboro;
+	box-shadow: 2px 2px 2px grey;
+}
+/*.album .pic:hover{
+	opacity: 1;
+	z-index: 18;
+	transform: scale(1.2);
+}*/
+.album .pic:nth-child(1){
+	margin-top:2%;
+	z-index: 0;
+}
+.album .pic:nth-child(5){
+	left:56%;
+	margin-top:2%;
+	z-index: 0;
+}
+.album .pic:nth-child(4){
+	left:50%;
+	margin-top:6%;
+	z-index: 2;
+}
+.album .pic:nth-child(2){
+	left:6%;
+	margin-top:6%;
+	z-index: 2;
+}
+.album .pic:nth-child(3){
+	margin-top:11%;
+	left:25%;
+	width:48%;
+	height:72%;
+	opacity: 1;
+	z-index: 4;
+}
+.inf{
+	position: relative;
+	width:84%;
+	margin-left: 8%;
+	height: 65%;
+	top: 1%;
+	background-color: #C7DBD0;
+}
+.inf .box{
+	height:32%;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.inf .box .leftBox{
+	height:98%;
+	width:40%;
+	background:rgba(184,196,173,0.8);
+	float: left;
+}
+.inf .box .rightBox{
+	height:98%;
+	width:58%;
+	background:rgba(126,196,181,0.8);
+	float: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.rightBox h1{
+	padding:20px;
+}
+footer{
+	display: flex;
+	position: relative;
+	bottom: 0;
+}

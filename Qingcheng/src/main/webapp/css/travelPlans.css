@@ -1,0 +1,155 @@
+body {
+	/*background-color: #F5F5F5;*/
+}
+
+html {
+	background-color: rgba(199, 221, 224, 0.6);
+}
+
+
+.serachBox {
+	position: relative;
+	margin-bottom: 20px;
+	height: 8%;
+	background-color: #B0D2D5;
+	top: 16%;
+}
+
+.serachBox .chooseArea {
+	position: relative;
+	height: 100%;
+	width: 78%;
+	left: 11%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.chooseArea input {
+	position: relative;
+	height: 70%;
+	width: 40%;
+	border: 1px solid gainsboro border-radius:50px !important;
+}
+
+.chooseArea .showPlan {
+	position: relative;
+	width: 150px;
+	height: 70%;
+	font-size: 18px;
+	background-color: white;
+	color: black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.chooseArea select {
+	position: relative;
+	width: 150px;
+	height: 70%;
+	font-size: 18px;
+}
+
+.center {
+	position: relative;
+	top: 16%;
+	height: 160%;
+	width: 84%;
+	left: 8%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-content: center;
+	z-index: 10;
+}
+
+.center .box {
+	position: relative;
+	border: 5px solid gainsboro;
+	display: flex;
+	background-color: #5F9EA0;
+	justify-content: flex-start;
+	align-items: flex-start;
+	z-index: 29;
+	width: 24%;
+	height: 20%;
+}
+
+.center .box .borthday {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.inf {
+	position: absolute;
+	width: 84%;
+	height: 0%;
+	top: 20%;
+	/*left: 8%;*/
+	background-color: #95BCA7;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	/*	border:2px solid gainsboro;*/
+	box-shadow: 5px 5px 5px grey;
+	z-index: 102;
+}
+
+.inf p {
+	line-height: 30px;
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+}
+
+.exhasit {
+	position: fixed;
+	margin-top: 8%;
+	margin-left: 0;
+	height: 70%;
+	width: 40%;
+	left: 30%;
+	opacity: 1;
+	z-index: 100;
+	display: none;
+}
+
+.show {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: darkgray;
+	z-index: 102;
+	/*border:2px solid gainsboro;*/
+	box-shadow: 5px 5px 5px grey;
+}
+
+.show .content h1 {
+	margin: 20px;
+}
+
+.show img {
+	max-width: 100%;
+	max-height: 100%;
+	float: left;
+}
+
+.show .exsit {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 20;
+}
+
+footer {
+	display: flex;
+	position: relative;
+	width: auto bottom: 0;
+}

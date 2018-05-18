@@ -1,0 +1,92 @@
+html{
+	background-color: #F5F5F5;
+}
+.title{
+	position: relative;
+	top:12%;
+	height:15%;
+	width:100%;
+	background-color:#A1D2B0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-family:"幼圆";
+	font-size:52px;
+	color: white;
+	text-shadow: 8px 6px 6px lightblue;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+}
+.center{
+	position: relative;
+	top:13%;
+	height:auto;
+	width:76%;
+	margin-left: 12%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.center .model{
+	width:46%;
+	height:30%;
+	position: relative;
+	margin-bottom: 4%;
+}
+.model .content{
+	position: absolute;
+	left: 20%;
+	top:20%;
+	height:50%;
+	width: 60%;
+	background-color:gainsboro;
+	display:  flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	opacity: 0.6;
+}
+.center .model img{
+	width:100%;
+	height:100%;
+}
+.center .model .content h1{
+	font-size:52px;
+	font-family:"幼圆";
+}
+.model a{
+	position: absolute;
+	left:40%;
+	border:1px solid gray;
+	width:20%;
+	height:50px;
+	bottom: 10%;
+	background-color:grey;
+	opacity: 0.8;
+}
+.model a .enterPlace{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.model a:hover{
+	background-color:#FC4349;
+	opacity: 1;
+}
+footer{
+	display: flex;
+	position: relative;
+	margin-top:20px;
+	bottom: 0;
+}
+@font-face {
+	font-family:mzd;
+	src: url(../font/mzd.ttf);
+}

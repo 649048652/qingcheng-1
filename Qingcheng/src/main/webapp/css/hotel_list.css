@@ -1,0 +1,497 @@
+html {
+	background-color: rgba(199, 221, 224, 0.6);
+}
+
+
+.contain {
+	width: 84%;
+	height: 230%;
+	left: 8%;
+	top: 15%;
+	position: relative;
+	z-index: 90;
+	background-color: whitesmoke;
+}
+
+.contain_head {
+	width: 100%;
+	height: 5%;
+	background-color: whitesmoke;
+	box-shadow: 0px 3px 0px 0px lightgray;
+}
+
+.contain_head .head_left {
+	left: 1%;
+	width: 8%;
+	height: 48%;
+	top: 26%;
+	position: relative;
+	/*background-color: lightgoldenrodyellow;*/
+	display: inline-block;
+	/*text-align: center;*/
+}
+
+.head_left h1 {
+	font-size: 28px;
+}
+
+.contain_head .head_right {
+	right: 1%;
+	float: right;
+	width: 27%;
+	height: 48%;
+	top: 26%;
+	position: relative;
+	display: inline-block;
+	/*background-color: lightcyan;*/
+}
+
+.head_right form {
+	display: block;
+	/*margin-top: 1%;*/
+	height: 100%;
+}
+
+.head_right .search {
+	width: 90%;
+	height: 80%;
+	font-size: 14px;
+	color: #666;
+	position: relative;
+	top: 10%;
+	border: 1px solid #e0e0e0;
+	font-family: "微软雅黑";
+}
+
+.head_right .search_btn {
+	width: 10%;
+	height: 80%;
+	top: 10%;
+	position: absolute;
+	border: 0;
+	cursor: pointer;
+	/*border: 1px solid #e0e0e0;*/
+	background: url(../img/hotel_list/ico2.png) center no-repeat whitesmoke;
+}
+
+.hotel_tuijian {
+	width: 100%;
+	height: 20%;
+	background-color: whitesmoke;
+	margin-top: 0.3%;
+}
+
+.tuijian_head {
+	width: 100%;
+	height: 14%;
+	/*background-color: lightgoldenrodyellow;*/
+	background-color: whitesmoke;
+}
+
+.tuijian_head h3 {
+	font-family: "幼圆";
+	font-size: 16px;
+	top: 30%;
+	left: 1%;
+	position: relative;
+}
+
+
+.tuijian_body {
+	width: 100%;
+	height: 84%;
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: space-around;
+}
+
+.tuijian_body ._hotel {
+	width: 24%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	background-color: white;
+}
+
+.tuijian_body ._hotel img {
+	width: 100%;
+	height: 83%;
+}
+
+._hotel:hover img{
+	transform: scale(1.030,1.030);
+	transition: all 0.5s ease 0s; 
+}
+
+.tuijian_body ._hotel h3 {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	margin-top: 1.5%;
+}
+
+.hotel_class {
+	width: 100%;
+	height: 3%;
+	font-weight: 400;
+	background-color: whitesmoke;
+}
+
+/*.hotel_class  .class_list ul{
+	list-style: none;
+}
+
+.class_list ul li{
+	float: left;
+	width: 7%;
+	height: 100px;
+	text-align: center;
+	margin-right: 2%;
+}
+
+.sub_menu{
+	display: none;
+}*/
+
+.wrapper-dropdown{
+	position: relative;
+	float: left;
+	top: 2%;
+	left: 1%;
+	width: 6%;
+	padding: 10px;
+	background: #fff;
+    border-radius: 7px;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 1px 1px rgba(50,50,50,0.1);
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    color: #8AA8BD;
+}
+
+.wrapper-dropdown:after{
+	content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #8aa8bd transparent;
+}
+
+.wrapper-dropdown .dropdown{
+	position: absolute;
+    top: 130%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: inherit;
+    border: 1px solid rgba(0,0,0,0.17);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-weight: normal;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    list-style: none;
+    display: none;
+    z-index: 100;
+    /*opacity: 0;*/
+    /*pointer-events: none;*/
+   
+}
+
+.wrapper-dropdown .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 15px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;    
+}
+
+.wrapper-dropdown .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;    
+}
+
+.wrapper-dropdown .dropdown li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #8aa8bd;
+    border-bottom: 1px solid #e6e8ea;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-dropdown .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0;
+}
+
+.wrapper-dropdown .dropdown li:last-of-type a {
+    border: none;
+    border-radius: 0 0 7px 7px;
+}
+
+.wrapper-dropdown .dropdown li:hover a {
+    background: #f3f8f8;
+}
+/*.wrapper-dropdown.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}*/
+
+.list{
+	width: 64%;
+	height: 70%;
+	float: left;
+	margin-top: 1%;
+	margin-right: 1%;
+	background-color: lightpink;
+}
+
+.list .hotel_item{
+	width: 100%;
+	height: 20%;
+	border-bottom: 1px solid lightgrey;
+	background-color: white;
+}
+
+.hotel_item .item_img{
+	float: left;
+	width: 27%;
+	height: 84%;
+	top: 8%;
+	left: 1%;
+	position: relative;
+}
+
+.item_img a{
+	cursor: pointer;
+}
+
+.item_img img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.item_text{
+	width: 71%;
+	height: 100%;
+	float: right;
+	display: inline-block;
+	/*background-color: lightgoldenrodyellow;*/	
+}
+
+.item_base,.item_comt.item_pri{
+	float: left;
+}
+
+.item_text .item_base{
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	/*background-color: lightsalmon;*/
+}
+
+.item_base p{
+	display: block;
+	margin: 5px;
+}
+
+.item_base .item_b1{
+	margin-top: 6%;
+}
+
+.item_base .item_b1 a{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	cursor: pointer;
+	color: #37e;
+	text-decoration: none;
+}
+
+.item_base .item_b2{
+	font-size: 14px;
+	color: gray;
+	margin-top:8px;
+}
+
+.item_base .item_b3{
+	width: 64%;
+	height: 20%;
+	margin-top: 13%;
+	margin-left: 1%;
+	/*background-color: lightblue;*/
+}
+
+.item_b3 p{
+	display: block;
+	height: 100%;
+	display: flex;
+	justify-content: space-around
+}
+
+.item_b3 .icon_wifi,.icon_park,.icon_res,.icon_baggage{
+	width: 18%;
+	height: 60%;
+	top: 20%;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+
+.icon_wifi{
+	background: url(../img/hotel_list/wifi_icon.png) no-repeat;
+}
+
+.icon_park{
+	background: url(../img/hotel_list/parking_icon.png) no-repeat;
+}
+
+.icon_res{
+	background: url(../img/hotel_list/res_icon.png) no-repeat;
+}
+
+.icon_baggage{
+	background: url(../img/hotel_list/baggage_icon.png) no-repeat;
+}
+
+.item_text .item_comt{
+	width: 25%;
+	height: 100%;
+	left: 50%;
+	/*float: right;*/
+	position: relative;
+	text-align: center;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	/*background-color: lightsteelblue;*/
+}
+
+.item_comt .comt_grade,.comt_comm{
+	display: block;
+	position: absolute;
+	font-family: "微软雅黑";
+}
+
+.item_comt .comt_grade{
+	font-size: 16px;
+	top: 10%;
+	left: 30%;
+	color: gray;
+}
+
+.comt_grade font{
+	color: #3377EE;
+	font-size: 28px;
+	font-family: "幼圆";
+}
+
+.item_comt .comt_comm{
+	color: #3377EE;
+	top: 40%;
+	left: 25%;
+	font-size: 22px;
+}
+
+.item_text .item_pri{
+	width: 25%;
+	height: 100%;
+	left: 75%;
+	top: -100%;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	/*background-color: lightcyan;*/
+}
+
+.item_pri p{
+	margin-top: 13%;
+}
+
+.item_pri .pri_1{
+	font-size: 14px;
+	color: #666666;
+	vertical-align: 11px;
+}
+
+.item_pri .pri_2{
+	font-size: 28px;
+	font-family: arial;
+	color: #f55;
+}
+
+.item_pri .pri_3{
+	font-size: 15px;
+	color: #666666;
+	vertical-align: 2px;
+}
+
+.item_pri .check_detail{
+	width: 80%;
+	height: 15%;
+	position: relative;
+	top: 35%;
+	left: 10%;
+	font-size: 16px;
+	background-color: lightcoral;
+}
+
+.check_detail a{
+	color: white;
+	margin-top:2%;
+	left: 20%;
+	position: absolute;
+}
+
+.map{
+	width: 34%;
+	height: 30%;
+	float: right;
+	margin-top: 1%;
+	/*left: 65%;
+	top: 50%;*/
+	background-color: white;
+	/*position: fixed;*/
+}
+
+.map .map_head{
+	font-family: "幼圆";
+	font-size: 16px;
+	margin: 1% 0 0 1%;
+}
+
+.map iframe{
+	margin-top: 1%;
+	width: 100%;
+	height: 100%;
+}
+footer{
+	display: flex;
+	position: relative;
+	margin-top:40px;
+	bottom: 0;
+}

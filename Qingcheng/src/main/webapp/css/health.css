@@ -1,0 +1,45 @@
+html {
+	background-color: rgba(199, 221, 224, 0.6);
+}
+
+
+.center {
+	position: relative;
+	width:50%;
+	height:73%;
+	display: flex;
+	left:14%;
+	top: 18%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	flex-wrap: wrap;
+	background: url(../img/bagua.png) no-repeat;
+	background-size: 50% 70%;
+	background-position: 38% 25%;
+}
+.center a{
+	width:49%;
+	height:45%;
+	margin-bottom: 2%;
+	opacity: 0.8;
+}
+.center a:hover{
+	opacity: 1;
+	transform: scale(1.2);
+	transition: all 0.3s ease-in ;
+}
+.center .model{
+	position: relative;
+	display: flex;
+	width:80%;
+	height:80% ;
+	color:black !important;
+}
+.model h1{
+	font-size: 36px !important;
+}
+footer{
+	display: flex;
+	bottom: 0;
+}

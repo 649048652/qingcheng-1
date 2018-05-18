@@ -1,0 +1,94 @@
+html {
+	background-color: rgba(199, 221, 224, 0.6);
+}
+
+
+.contain{
+	width: 84%;
+	height: 180%;
+	margin-left: 8%;
+	position: relative;
+	top: 16%;
+	z-index: 90;
+	background-color: whitesmoke;
+	/*background-color: lightgoldenrodyellow;*/
+}
+
+.contain_head{
+	width: 100%;
+	height: 6%;
+	/*background-color: lightblue;*/
+	box-shadow: 0px 3px 0px 0px lightgray;
+}
+
+.contain_head h1{
+	font-size: 28px;
+	margin-top: 1.5%;
+	margin-left: 1%;
+	position: absolute;
+}
+
+.contain_body{
+	width: 100%;
+	height: 90%;
+	/*background-color: lightsalmon;*/
+	margin-top: 0.5%;
+	/*padding: 1%;*/
+}
+
+.contain_item{
+	width: 32%;
+	height: 32%;
+	float: left;
+	background-color: white;
+	margin: 1% 0 0 1%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.contain_item:hover{
+	box-shadow: 1px 1px 1px 1px gray;
+}
+
+.contain_item img{
+	width: 92%;
+	height: 80%;
+	margin-left: 4%;
+	margin-top: 2%;
+}
+
+/*.contain_item img:hover{
+	transform: scale(1.030,1.030);
+	transition: all 0.5s ease 0s; 
+}*/
+
+.contain_item h3{
+	margin-top: 1%;
+	font-size: 23px;
+	color: black;
+}
+
+/*.contain_item .item_des{
+	width: 92%;
+	height: auto;
+	margin-top: 1%;
+	margin-left: 4%;
+	font-family: "幼圆";
+}*/
+
+.item_des span{
+	font-weight: bold;
+	font-size: 16px;
+	/*float: left;*/
+}
+
+.item_des p{
+	display: inline-block;
+	margin: 3px 2px;
+}
+footer{
+	display: flex;
+	position: relative;
+	margin-top:40px;
+	bottom: 0;
+}
