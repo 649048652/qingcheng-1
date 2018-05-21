@@ -91,7 +91,7 @@
                 </a>
             </div>
             <div class="model">
-                <a href="hotel_list.html">
+                <a href="preview/hotel_list">
                 <img src="img/colorful4.jpg" />
                 <div class="content">
                     度假酒店

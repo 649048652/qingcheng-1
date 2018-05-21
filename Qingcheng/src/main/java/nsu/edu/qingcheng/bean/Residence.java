@@ -44,6 +44,42 @@ public class Residence {
     private String residenceLogo;
 
     private String residenceText;
+    
+    public Residence() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+    public Residence(Integer residenceId, Integer villageId, Integer menuId, String residenceName, String residencePic,
+            String residenceIntroduce, String residenceMap, String residenceTime, Integer residencePrice,
+            Integer residenceLevel, Integer residenceCategory, Integer residenceLoctype, Integer residenceLogos,
+            Float residenceRecommend, String residencePhone, String residenceBank, String residenceHospital,
+            String residencePlace, String residenceFacitity, Float residenceScore, String residenceLogo,
+            String residenceText) {
+        super();
+        this.residenceId = residenceId;
+        this.villageId = villageId;
+        this.menuId = menuId;
+        this.residenceName = residenceName;
+        this.residencePic = residencePic;
+        this.residenceIntroduce = residenceIntroduce;
+        this.residenceMap = residenceMap;
+        this.residenceTime = residenceTime;
+        this.residencePrice = residencePrice;
+        this.residenceLevel = residenceLevel;
+        this.residenceCategory = residenceCategory;
+        this.residenceLoctype = residenceLoctype;
+        this.residenceLogos = residenceLogos;
+        this.residenceRecommend = residenceRecommend;
+        this.residencePhone = residencePhone;
+        this.residenceBank = residenceBank;
+        this.residenceHospital = residenceHospital;
+        this.residencePlace = residencePlace;
+        this.residenceFacitity = residenceFacitity;
+        this.residenceScore = residenceScore;
+        this.residenceLogo = residenceLogo;
+        this.residenceText = residenceText;
+    }
 
     public Integer getResidenceId() {
         return residenceId;
@@ -220,4 +256,5 @@ public class Residence {
     public void setResidenceText(String residenceText) {
         this.residenceText = residenceText == null ? null : residenceText.trim();
     }
+    
 }

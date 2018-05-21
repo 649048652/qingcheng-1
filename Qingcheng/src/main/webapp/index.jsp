@@ -8,7 +8,7 @@
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-
+<base href="<%=basePath%>" />
     <head>
         <meta charset="utf-8" />
         <title></title>
@@ -40,7 +40,7 @@
                     <a href="beautContry.html">
                         <li>美丽乡村</li>
                     </a>
-                    <a href="colorful.html">
+                    <a href="preview/colorful">
                         <li>多彩青城</li>
                     </a>
                     <a href="health.html">
